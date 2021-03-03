@@ -1,0 +1,48 @@
+body {
+  /* text-align: center; */
+  background-color: rgb(253, 239, 214);
+  font-family: sans-serif;
+}
+
+#main-heading {
+  /* text-align: center; */
+  color: grey;
+  margin-top: 25px;
+  margin-left: 38%;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(146, 128, 248);
+  flex-wrap: no-wrap;
+  width: 300px;
+  margin: 2px 0% 2px 35%;
+  /* margin: 2px; */
+}
+li:hover {
+  background-color: grey;
+}
+p {
+  margin: 2px 20px;
+  text-align: center;
+}
+form {
+  /* text-align: center; */
+  margin-left: 35%;
+}
+.main-content {
+  display: flex;
+  width: 90%;
+}
+.delete {
+  display: flex;
+  width: 10%;
+}
+
+.delete a {
+  color: white;
+  background-color: red;
+}
